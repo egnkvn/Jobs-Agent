@@ -1,0 +1,22 @@
+# Career Copilot — Resume Tailoring & Interview Preparation Agent
+# Install with: pip install -r requirements.txt
+
+# Core agent framework
+deepagents
+langchain
+langgraph
+
+# LLM providers (install at least one)
+langchain-anthropic       # for claude-sonnet-4-6 (default)
+langchain-openai        # for openai:gpt-5, gpt-4o, etc.
+
+# Web fetching & HTML parsing
+requests
+beautifulsoup4
+
+# Data validation
+pydantic>=2.0
+python-dotenv
+
+# PDF parsing
+pypdf
